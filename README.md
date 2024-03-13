@@ -1,9 +1,65 @@
-# PROJET 9 : BILLED
+# Frontend
 
-# MISSION :
+**Organisation de l'espace de travail :**
 
-J'ai été désigné pour apporter mon assistance à l'équipe "note de frais" chez Billed, afin de finaliser l'application avant sa présentation officielle dans deux semaines. La fonctionnalité est cruciale pour le marché, et les délais sont serrés en raison du départ précipité d'un membre clé de l'équipe.
+**Création du dossier de travail :**
+Créez un dossier nommé "bill-app" dans lequel vous allez cloner le projet backend et frontend.
 
-# OBJECTIF :
+**Clonage du projet backend :**
+git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Back.git
 
-La mission consiste à fiabiliser et améliorer le parcours employé de l'application "note de frais". Le back-end est prêt en version alpha, mais le front-end nécessite des corrections et des tests. L'installation du back-end et du front-end doit se faire à partir des référentiels fournis par Matthieu.
+**Clonage du projet frontend :**
+git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Front.git
+
+**Votre structure de dossier devrait ressembler à ceci :**
+bill-app/
+
+- Billed-app-FR-Back
+- Billed-app-FR-Front
+
+**Comment lancer l'application en local ?**
+
+## Étape 1 - Lancer le backend :
+
+Suivez les indications dans le README du projet backend.
+
+## Étape 2 - Lancer le frontend :
+
+**Allez au répertoire cloné :**
+cd Billed-app-FR-Front
+
+**Installation des packages npm :**
+npm install
+
+**Installation de live-server pour lancer un serveur local :**
+npm install -g live-server
+
+**Lancement de l'application :**
+live-server
+
+[Accédez à l'adresse](http://127.0.0.1:8080/)
+
+**Comment lancer tous les tests en local avec Jest ?**
+npm run test
+
+**Comment lancer un seul test ?**
+Installez jest-cli :
+npm i -g jest-cli
+jest src/**tests**/your_test_file.js
+
+**Comment voir la couverture de test ?**
+http://127.0.0.1:8080/coverage/lcov-report/
+
+## Comptes et utilisateurs :
+
+Vous pouvez vous connecter en utilisant les comptes suivants :
+
+## Administrateur :
+
+Utilisateur : admin@test.tld
+Mot de passe : admin
+
+## Employé :
+
+Utilisateur : employee@test.tld
+Mot de passe : employee
